@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&family=Lobster&family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&family=Lobster&family=Nunito&family=Roboto:ital@1&display=swap');
 
-h5 {
+.headtext h5 {
     font-size: smaller;
     text-align: center;
     font-family: Roboto;
@@ -10,7 +10,12 @@ h5 {
 
 @media screen and (max-width:1024px) {
     
-    h5 {display: none;}
+    .headtext h5 {display: none;}
+}
+
+@media screen and (max-width:370px) {
+    
+    .motto {display: none;}
 }
 
 .navbar {
@@ -49,3 +54,12 @@ h4 {
     color: rgb(25, 67, 255);
 }
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main h1 {
+    text-align: center;
+    font-family: Roboto;
+}
