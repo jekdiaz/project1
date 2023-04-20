@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&family=Lobster&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&family=Lobster&family=Nunito&family=Roboto:ital@1&display=swap');
+
 h5 {
-    font-size: medium;
+    font-size: smaller;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: inline-block;float: right;
+    font-family: Roboto;
+    display: flex;
 }
 
 @media screen and (max-width:1024px) {
@@ -11,13 +14,38 @@ h5 {
 }
 
 .navbar {
-    display:flex;
-    justify-content: space-evenly;
     border-radius: 10px;
 }
 
-.navbar a {
-    color:black;
-    padding: 15px;
-    text-align:center;
+.logo{
+    font-weight:700;
+    font-style: italic;
 }
+
+.navlink{
+    color: rgb(255, 255, 255);
+}
+
+.banner-card img {
+    width:100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.banner-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: xx-large;
+}
+
+h4 {
+    font-family: Lobster;
+    font-size: larger;
+}
+
+.motto i {
+    color: rgb(25, 67, 255);
+}
+
