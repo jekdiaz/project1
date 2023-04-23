@@ -18,10 +18,15 @@
     .motto {display: none;}
 }
 
-@media screen and (max-width:994px) {
+@media screen and (max-width:768px) {
 
-    .headtext form {display: block;}
-    margin-top: 30px;
+    .img-fluid {display: none;}
+}
+
+@media screen and (max-width:1000px) {
+
+    .contact-img {display: none;}
+    .contact-logo {display: block;}
 }
 
 .headtext {
@@ -33,7 +38,7 @@
     border-radius: 10px;
 }
 
-.logo{
+.logo {
     font-weight:700;
     font-style: italic;
 }
@@ -77,4 +82,13 @@ main h1 {
 
 .flex-container {
     justify-content: space-between;
+}
+
+.doc-main img {
+    padding: 10px;
+}
+
+.contact-img {
+    height: 350px;
+    width: 500px;
 }
